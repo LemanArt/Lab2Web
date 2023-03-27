@@ -8,19 +8,13 @@
 
 <body>
     <?php
-    $nama_hari = date("3");
-    switch ($nama_hari) {
-        case "Sunday":
-            echo "Minggu";
-            break;
-        case "Monday":
-            echo "Senin";
-            break;
-        case "Tuesday":
-            echo "Selasa";
-            break;
-        default:
-            echo "Sabtu";
+    echo "Perulangan 1 sampai 10 <br />";
+    for ($i = 1; $i <= 10; $i++) {
+        echo "Perulangan ke: " . $i . '<br />';
+    }
+    echo "Perulangan Menurun dari 10 ke 1 <br />";
+    for ($i = 10; $i >= 1; $i--) {
+        echo "Perulangan ke: " . $i . '<br />';
     }
     ?>
 </body>
