@@ -102,3 +102,28 @@
 
     Hasil
     ![Gambar 1](4.png)
+
+5.  KOndisi Switch
+
+    ```php
+      <?php
+      $nama_hari = date("3");
+      switch ($nama_hari) {
+          case "Sunday":
+              echo "Minggu";
+              break;
+          case "Monday":
+              echo "Senin";
+              break;
+          case "Tuesday":
+              echo "Selasa";
+              break;
+          default:
+              echo "Sabtu";
+      }
+      ?>
+
+    ```
+
+    Hasil
+    ![Gambar 1](5.png)
