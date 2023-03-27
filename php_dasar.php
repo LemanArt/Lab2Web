@@ -8,12 +8,12 @@
 
 <body>
     <?php
-    echo "Perulangan 1 sampai 10 <br />";
+    echo "Perulangan 1 sampai 11 <br />";
     $i = 1;
-    while ($i <= 10) {
+    do {
         echo "Perulangan ke: " . $i . '<br />';
         $i++;
-    }
+    } while ($i <= 11);
     ?>
 </body>
 

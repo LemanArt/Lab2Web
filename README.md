@@ -132,15 +132,15 @@
 
     ```php
       <?php
-    echo "Perulangan 1 sampai 10 <br />";
-    for ($i = 1; $i <= 10; $i++) {
-        echo "Perulangan ke: " . $i . '<br />';
-    }
-    echo "Perulangan Menurun dari 10 ke 1 <br />";
-    for ($i = 10; $i >= 1; $i--) {
-        echo "Perulangan ke: " . $i . '<br />';
-    }
-    ?>
+      echo "Perulangan 1 sampai 10 <br />";
+      for ($i = 1; $i <= 10; $i++) {
+          echo "Perulangan ke: " . $i . '<br />';
+      }
+      echo "Perulangan Menurun dari 10 ke 1 <br />";
+      for ($i = 10; $i >= 1; $i--) {
+          echo "Perulangan ke: " . $i . '<br />';
+      }
+      ?>
 
     ```
 
@@ -151,15 +151,32 @@
 
     ```php
       <?php
-    echo "Perulangan 1 sampai 10 <br />";
-    $i = 1;
-    while ($i <= 10) {
-        echo "Perulangan ke: " . $i . '<br />';
-        $i++;
-    }
-    ?>
+      echo "Perulangan 1 sampai 10 <br />";
+      $i = 1;
+      while ($i <= 10) {
+          echo "Perulangan ke: " . $i . '<br />';
+          $i++;
+      }
+      ?>
 
     ```
 
     Hasil<br>
     ![Gambar 1](7.png)
+
+8.  Perulangan For
+
+    ```php
+      <?php
+      echo "Perulangan 1 sampai 11 <br />";
+      $i = 1;
+      do {
+          echo "Perulangan ke: " . $i . '<br />';
+          $i++;
+      } while ($i <= 11);
+      ?>
+
+    ```
+
+    Hasil<br>
+    ![Gambar 1](8.png)
