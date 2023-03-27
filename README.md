@@ -144,5 +144,22 @@
 
     ```
 
-    Hasil
+    Hasil<br>
     ![Gambar 1](6.png)
+
+7.  Perulangan For
+
+    ```php
+      <?php
+    echo "Perulangan 1 sampai 10 <br />";
+    $i = 1;
+    while ($i <= 10) {
+        echo "Perulangan ke: " . $i . '<br />';
+        $i++;
+    }
+    ?>
+
+    ```
+
+    Hasil<br>
+    ![Gambar 1](7.png)
