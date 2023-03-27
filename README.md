@@ -1,10 +1,10 @@
 # Lab2Web
 
-##Laporan Praktikum
+## Laporan Praktikum
 
 1.  Hello World dan Variabel
 
-    ````php
+    ```php
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -25,7 +25,35 @@
       </body>
     </html>
     ```
-    ````
 
 Hasil
 ![Gambar 1](1.png)
+
+2. Membuat Form
+
+   ```php
+     <!DOCTYPE html>
+     <html lang="en">
+
+     <head>
+         <meta charset="UTF-8">
+         <title>PHP Dasar</title>
+     </head>
+
+     <body>
+         <h2>Form Input</h2>
+         <form method="post">
+             <label>Nama: </label>
+             <input type="text" name="nama">
+             <input type="submit" value="Kirim">
+         </form>
+         <?php
+         echo 'Selamat Datang ' . $_POST['nama'];
+         ?>
+     </body>
+
+     </html>
+   ```
+
+Hasil
+![Gambar 1](2.png)
