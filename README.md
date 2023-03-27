@@ -26,7 +26,7 @@
         </html>
         ```
 
-    Hasil
+    Hasil<br>
     ![Gambar 1](1.png)
 
 2.  Membuat Form
@@ -55,7 +55,7 @@
       </html>
     ```
 
-    Hasil
+    Hasil<br>
     ![Gambar 1](2.png)
 
 3.  Operator
@@ -81,7 +81,7 @@
 
     ```
 
-    Hasil
+    Hasil<br>
     ![Gambar 1](3.png)
 
 4.  KOndisi IF
@@ -100,7 +100,7 @@
 
     ```
 
-    Hasil
+    Hasil<br>
     ![Gambar 1](4.png)
 
 5.  KOndisi Switch
@@ -125,7 +125,7 @@
 
     ```
 
-    Hasil
+    Hasil<br>
     ![Gambar 1](5.png)
 
 6.  Perulangan For
