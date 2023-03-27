@@ -261,5 +261,5 @@
      ?>
      ```
 
-  3. Hasil
+  3. Hasil<br>
      ![Gambar 1](hasil.png)
